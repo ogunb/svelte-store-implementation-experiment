@@ -1,5 +1,6 @@
 {
   "name": "svelte-store-implementation-experiment",
+  "main": "public/index.html",
   "private": true,
   "scripts": {
     "serve": "parcel ./public/index.html --port 5000"
