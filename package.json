@@ -1,0 +1,13 @@
+{
+  "name": "svelte-store-implementation-experiment",
+  "private": true,
+  "scripts": {
+    "serve": "parcel ./public/index.html --port 5000"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "lit-html": "^1.3.0"
+  }
+}
