@@ -3,7 +3,7 @@ import { inputStore } from '../inputStore.js';
 
 
 export default function Input(property) {
-    let initialValue;
+    let initialValue = {};
     let unsubscribe = inputStore.subscribe(value => initialValue = value);
     unsubscribe();
 
